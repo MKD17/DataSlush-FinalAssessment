@@ -31,6 +31,7 @@ The dataset is a collection of movie titles, genres, descriptions, and other met
     ```bash
     git clone https://github.com/MKD17/DataSlush-FinalAssessment.git
     cd DataSlush-FinalAssessment
+    cd movie-recommendation-app
     ```
 
 2. Install the dependencies:
@@ -57,4 +58,6 @@ Simply type in your desired movie characteristics, such as `"action-packed thril
 - **netflix_movies.pkl**: A pickled file containing the dataset of Netflix movies, including titles, genres, and descriptions.
 - **embeddings.pkl**: A pickled file that stores precomputed embeddings and IDs for the movie dataset.
 - **requirements.txt**: A file listing the Python dependencies required to run the project.
+- **rawcode_withoutUI.ipynb**: This file contains a raw code which recommends the output without UI design.
+- **urldataset_to_picklefile**: This file contains the code for conversion of URL dataset(.csv) link to a pickle(.pkl) file.
 - **README.md**: This file, providing an overview and instructions for the project.
